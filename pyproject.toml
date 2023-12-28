@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "selenium-python-infra"
+version = "0.1.0"
+description = "Selenium Python Infrastructure example project with pytest and Allure report"
+authors = ["DanLeshinsky <leshinski.d@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+allure-pytest = "2.13.2"
+allure-python-commons = "2.13.2"
+pytest = "7.4.3"
+requests = "2.31.0"
+selenium = "4.15.2"
+faker = "21.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
